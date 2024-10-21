@@ -1,0 +1,42 @@
+{
+  "name": "wasm-decoder",
+  "version": "1.0.0",
+  "description": "API on Node.js using Web Assembly to decode FLAC files in the browser. It also supports the conversion of files into various formats depending on the client's requests.",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widelumen/WASM-Decoder.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "WASM",
+    "Flac",
+    "Decoder",
+    "Audio",
+    "API",
+    "Music"
+  ],
+  "author": "WIDE LUMEN",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/widelumen/WASM-Decoder/issues"
+  },
+  "homepage": "https://github.com/widelumen/WASM-Decoder#readme",
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "dropzone": "^6.0.0-beta.2",
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "multer": "^1.4.5-lts.1",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
